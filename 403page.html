@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Error 403</title>
+	<style>
+			div {
+				height: 400px;
+				width: 60%;
+				margin: auto;
+				background: url(error0.jpg) center center no-repeat;
+				background-size: cover;
+			}
+			h3 {
+				font-family: helvetica;
+				text-align: center;
+			}
+			a {
+				text-decoration: none;
+			}
+			a:links {
+				color: #666;
+			}
+		</style>
+		
+</head>
+<body>
+	<div></div>
+	<h3>Access Forbidden. This area is off-limits to you. Please try again.</h3>
+</body>
+<script type="text/javascript">
+	
+	window.onload=incr;
+	function incr() {
+		var count403=(localStorage.getItem("count403"));
+		count403++;
+		localStorage.setItem("count403",count403);
+	}
+	/*var count403=localStorage.getItem("count403");
+	count403++;
+	localStorage.setItem("count403",count403);*/
+</script>
+</html>

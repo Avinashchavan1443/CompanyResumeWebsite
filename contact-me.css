@@ -1,0 +1,295 @@
+body {
+	margin: 0;	
+	padding: 0;
+}
+
+.header {
+	position: absolute;
+	height: 100%;	
+	width: 20%;			
+	background-color: #fff;
+	position: fixed;
+	overflow: hidden;
+}
+
+.header-big {
+	position: relative;
+	font-family: arial;
+	font-size: 150px;
+	color: #000;
+	left: 8%;
+	/*padding: 0 8%;*/
+	transition: .5s;
+}
+
+.header-list {
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+	list-style-type: none;
+	
+}
+
+.header-list li {
+	margin-bottom: 18%;
+	list-decoration: bold;
+	letter-spacing: 1px;
+}
+
+.h-a {
+	text-decoration: none;
+	color: #e1c184;
+	margin-bottom: 15px;
+	list-decoration: bold;
+	letter-spacing: 1px;
+}
+
+.h-a:hover {
+	color: SaddleBrown;
+	transition: .5s;
+	/*transform: scale(2);
+	font-size: 25px;*/
+}
+
+/*.header-list li:hover{
+	font-size: 25px;
+}*/
+
+a {text-decoration: none;color: #e1c184;}
+
+.header-big:hover {
+	left: 100%;
+	transition: .5s;
+}
+
+video {
+	position: fixed;
+	height: 100%;
+	width: 80%;
+	margin-left: 20%;
+}
+
+.intro {
+	position: absolute;
+	height: 35%;
+	width: 80%;
+	left: 20%;
+	background-color: pink;
+	/*overflow: hidden;*/
+}
+
+.intro {
+	position: absolute;
+	height: 50%;
+	width: 80%;
+	left: 20%;
+	background-color: pink;
+	/*background: url(c2.jpg) center center no-repeat;
+	background-size: cover;*/
+}
+
+#particles-js {
+	position: fixed;
+	height: 100%;
+	background: #e1c184;	
+	z-index: -1;
+}
+
+#c1-s {
+	position: absolute;
+	top: 30%;
+	left: 42%;
+	font-family: helvetica;
+	font-size: 50px;
+	color: #000;
+	text-align: center;
+}
+
+#c1-p {
+	position: absolute;
+	top: 50%;
+	left: 46%;
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-size: 55px;
+	letter-spacing: 5px;
+}
+
+p {
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	font-family: helvetica;
+	font-size: 55px;
+	color:SaddleBrown;
+	
+}
+
+hr {
+	position: absolute;
+	top: 90%;
+	left: 33%;
+	height: 25px;
+	width: 750px;
+	border: 0px solid #c19946;
+	background-color: SaddleBrown;
+}
+
+.insta {
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;
+}
+
+.facebook {
+	position: absolute;
+	top: 100%;
+	left: 35%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;	
+}
+
+
+.twitter {
+	position: absolute;
+	top: 100%;
+	left: 55%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;	
+}
+
+.youtube {
+	position: absolute;
+	top: 100%;
+	left: 65%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;	
+
+}
+
+.google-plus {
+	position: absolute;
+	top: 100%;
+	left: 75%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;	
+
+}
+
+.linkedin {
+	position: absolute;
+	top: 100%;
+	left: 85%;
+	height: 9%;
+	width: 4.5%;
+	background-color: #c19946;
+	border-radius: 100%;	
+}
+
+.icon:hover {
+	transform: scale(1.2);
+	transition: .8s;
+}
+
+
+form {
+	position: absolute;
+	top: 130%;
+	left: 42%;
+	max-width: 850px;
+	margin: 0 auto 50px;
+}
+
+.contact-info-group {
+	
+}
+
+label {
+	font-family: helvetica;
+	display: block;
+	margin-bottom: 20px;
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+
+span {
+	display: block;
+}
+
+input,textarea {
+	border: 3px solid SaddleBrown;
+	font-family: helvetica;
+}
+
+.i1,.i2 {
+	width: 280px;
+	height: 45px;
+}
+
+textarea {
+	width: 200%;
+	height: 90px;
+}
+
+.send {
+	position: relative;
+	top: 10px;
+ 	width: 100%;
+	height: 50px;
+	background: SaddleBrown;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 150px;
+}
+
+.send:hover {
+	background: #c19946;
+	cursor: pointer;
+}
+
+/*.top {
+	position: absolute;
+	top: 190%;
+	left: 95%;
+	background-color: #c19946;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-family: helvetica;
+	transition: .7s;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+<!-- <DOCTYPE html> -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Login</title>
+		<link href="jobs.css" type="text/css" rel="stylesheet">	
+	</head>
+	<body>
+		<div class="nav-bar">
+			<ul>
+				<li><a class="nav-a" href="intro.html">Welcome!</a></li>
+				<li><a class="nav-a" href="#">About Us</a></li>
+				<li><a class="nav-a" href="buttons.html">Our Sample Work</a></li>
+				<li><a class="nav-a" href="#">Articles</a></li>
+				<li><a class="nav-a" href="contact-me.html">Contact Us</a></li>	
+				<li><a class="nav-a" href="2a.html">Chat</a></li>			
+			</ul>		
+		</div>
+		
+		<!--<div class="img">
+			<img src="earthmap.jpg" />
+		</div>-->
+		<!--<div id="slider">
+			<figure>
+				<img src="earthmap.jpg" />
+				<img src="tom.jpg" />
+				<img src="ear.png" />
+				<img src="face1.jpg" />
+				<img src="etherum.png" />
+			</figure>
+		</div>-->
+
+		<!-- h2 within a  -->	
+
+		<div id="map" style="width:1295px;height:350px;background:yellow;position: relative;top: 67px;position: fixed;"></div>
+
+		<script>
+			function myMap() 
+			{
+				var mapOptions = {
+			    center: new google.maps.LatLng(21.7757881,76.0918435),
+			    zoom: 3,
+			    mapTypeId: google.maps.MapTypeId.HYBRID
+			}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGsa2SGRg8zEzObH2c0iTAn7CQxGuf1Y0&callback=myMap"></script>
+		
+
+		<br /><br /><br />
+		<div class="blurb">
+				<a href="#" class="blurba" ><h2>Apply</h2></a>
+				<p class="blurbp">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+
+		<div class="blurb">
+				<a href="#" class="blurba"><h2>Track Your Application</h2></a>
+				<p class="blurbp">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+
+		<div class="img2">
+				<!--<img src="earthmap.jpg" />-->
+		</div>		
+
+		<div class="blurb">
+				<a href="#" class="blurba"><h2>Schedule Your Interview</h2></a>
+				<p class="blurbp">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+		<div class="blurb">
+				<a href="#" class="blurba"><h2>Login</h2></a>
+				<p class="blurbp">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+		
+		<div class="application">
+			<form action="register.php" method="POST">
+				<h2 class="apph2">Application Form</h2>
+				<label>
+					First Name *
+					<input type="text" name="name1"  required/>
+				</label><br/>
+				<label>
+					Last Name
+					<input type="text" name="name2" />
+				</label>
+				<!--<h3 id="mname" onclick="middle()">M</h3><br/>
+																										
+				<label>
+					DOB
+					<input type="date" name="dob" />
+				</label><br/>-->
+				<label id="dad">
+					Father's Name
+					<input type="text" name="fname" />
+				</label><br/>
+				<label>
+					Mother's Name
+					<input type="text" name="mname" />
+				</label><br/>
+				<label>
+					Password *
+					<input type="password" name="passwd"  required/>
+				</label><br/>
+				<label>
+					Confirm *
+					<input type="password" name="conpasswd"  required/>
+				</label><br/>
+				<label>
+					Address
+					<textarea name="address"></textarea>
+				</label><br/>
+				<input type="submit" class="s"/>
+				<input type="reset" class="r"/>
+			</form>	
+		</div>
+
+
+		<div class="application-1">
+
+		<h2>Login</h2>	
+
+		<form action="login.php" method="post">
+			<label>Username: <input type="text" name="username"  required/></label>
+			<br />
+			<label>Password: <input type="password" name="pass" id="pass" required/></label>
+			<br />
+			<label style="position: relative;top: -20px; left: -60px;"><input type="checkbox" name="check" onclick="myFunction()"/>Show Password</label>
+			<br/>
+			<input type="submit" name="submitlogin" value="Login">
+		</form>
+		</div>
+
+	<div class="application-2">
+
+		<h2>Employee Login</h2>	
+
+		<form action="logine.php" method="post">
+			<label>Username: <input type="text" name="username" required/></label>
+			<br />
+			<label>Password: <input type="password" name="pass" id="pass1" required/></label>
+			<br />
+			<label style="position: relative;top: -20px; left: -60px;"><input type="checkbox" name="check" onclick="myFunction1()"/>Show Password</label>
+			<br/>
+			<input type="submit" name="submitlogin" value="Login">
+		</form>
+		</div>
+
+	</body>
+
+	<script>
+		function middle()
+		{
+			var label=document.createElement('label');
+			var lebel2=document.getElementById('dad');
+			label.innerHTML="Middle Name <input type='text' name='mid' />";
+			document.insertBefore(label,label2);
+		}
+
+		function myFunction() {
+		    var x = document.getElementById("pass");
+		    if (x.type === "password") {
+		        x.type = "text";
+		    } else {
+		        x.type = "password";
+		    }
+		} 
+
+		function myFunction1() {
+		    var x = document.getElementById("pass1");
+		    if (x.type === "password") {
+		        x.type = "text";
+		    } else {
+		        x.type = "password";
+		    }
+		} 
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,247 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar {
+	height: 10%;
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+
+}
+
+ul {
+	list-style-type: none;
+	display: inline;
+	float: right;
+	/*margin-left: 25%;*/
+	
+}
+
+li {
+	display: inline;
+	margin-right: 25px;
+
+}
+
+.nav-a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;	
+	position: relative;
+	top: 30%;
+	padding-top: 15px;
+	padding-bottom: 18px;
+}
+
+.nav-a:hover {
+	border: 2px solid #fff;
+}
+
+.intro-img {
+	position: relative;
+	display: fixed;
+	height: 85%;
+	width: 100%;
+	background: url(earthmap.jpg) center center ;
+	background-size: cover;
+}
+
+@keyframes slider {
+				0% {
+					left: 0;
+				}
+				20% {
+					left: 0;
+				}
+				25% {
+					left: -100%;
+				}
+				45% {
+					left: -100%;
+				}
+				50% {
+					left: -200%;
+				}
+				70% {
+					left: -200%;
+				}
+				75% {
+					left: -300%;
+				}
+				95% {
+					left: -400%;
+				}
+				100% {
+					left: -400%;
+				}
+
+			}
+
+			#slider {
+				height: 85%;
+				overflow: hidden;
+			}
+			#slider figure img {
+				width: 20%;
+				float: left;
+			}
+			#slider figure {
+				position: relative;
+				width: 500%;
+				margin: 0;
+				left: 0;
+				text-align: left;
+				font-size: 0;
+				animation: 20s slider infinite;
+			}
+
+
+.blurb {
+	/*height: 40%;*/
+	width: 60%;
+	margin: auto;
+	/*border: 2px solid black;*/
+}
+
+.blurba,h2 {
+	font-family: arial;
+	font-size: 20px;
+	color: #000;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;	
+	text-decoration: none;
+}
+
+.blurbp {
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	/*display: none;*/
+}
+
+.img {
+	height: 85%;
+	max-width: 100%;
+	overflow: hidden;
+	background: url(earthmap.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.img2 {
+	height: 85%;
+	max-width: 100%;
+	overflow: hidden;
+	background: url(srk.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.application {
+	height: 60%;
+	width: 30%;
+	margin: auto;
+	/*display: none;*/
+}
+
+/*.blurba:active .application {
+	display: initial;
+}*/
+
+form {
+	font-family: arial;
+	/*float: left;*/
+}
+
+.apph2 {
+	margin-bottom: 10%;
+}
+
+label {
+	float: right;
+	margin-bottom: 8%;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+input {
+	/*float: right;
+	margin-bottom: 10%;*/
+	border: 2px solid black;
+	height: 35px;
+}
+
+.mname {
+	float: left;
+	text-decoration: none;
+}
+
+textarea {
+	height: 55px;
+	width: 235px;
+	border: 2px solid black;
+}
+
+.s,.r {
+	font-family: arial;
+	font-size: 16px;
+	text-transform: uppercase;	
+	position: relative;
+	display: inline-block;
+	/*top: 75px;*/
+	margin: auto;
+}
+
+.s {
+	margin-left: 30%;
+}
+
+
+.application-1 {
+	position: absolute;
+	top: 430%;
+	margin: auto 550px;
+}
+
+
+.application-2 {
+	position: absolute;
+	top: 480%;
+	margin: auto 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
